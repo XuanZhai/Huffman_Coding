@@ -20,8 +20,8 @@ It will also print the comparison accuracy to the prompt.
 
 Update:
 
-    1.1: The input file now accepts space and and newline. Please check the sample resource.txt.
+    v1.1: The input file now accepts space and and newline. Please check the sample input file.
 
-    1.2: Use array on heap instead of vector to avoid touching the memory limit.
+    v1.2: Use array on the heap instead of vector to avoid touching the memory limit.
 
-    1.3: Make a release for the code.
+    v1.3: Make a release for the code.
