@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 
 
-set (input01 "resource.txt")
+set (input01 "sampleinput.txt")
 
 #
 ##########################################

@@ -12,11 +12,15 @@ I did not use design patterns when I initially constructed this program, but I c
 
 ### How to run the code
 You will need to pass in a parameter which is the filename of your file that you want to compress.
+
 It will create compressed data and decompressed data as txt files.
+
 It will also print the comparison accuracy to the prompt.
 
 
 Update:
     1.1: The input file now accepts space and and newline. Please check the sample resource.txt
+
     1.2: Use array on heap instead of vector to avoid touching the memory limit.
+
     1.3: Make a release for the code.
