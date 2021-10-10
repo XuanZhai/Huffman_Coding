@@ -7,7 +7,7 @@ Its idea is to read a list of chars as data and save each char as an 8 bits bina
 
 For the decompression, it will rebuild the tree based on the key.txt and find the decompressed code with compressed.txt. After that, it will store the decompressed data into Decompressed.txt, and it will compare that with the one before compression.
 
-I did not use design patterns when I initially constructed this program, but I can see its advantages in it. Therefore, in the later versions, I may add design patterns to improve the code structure.
+I did not use design patterns when I initially constructed this program, but I can see the advantages in it. Therefore, in the later versions, I may add design patterns to improve the code structure.
 
 
 ### How to run the code
@@ -19,7 +19,8 @@ It will also print the comparison accuracy to the prompt.
 
 
 Update:
-    1.1: The input file now accepts space and and newline. Please check the sample resource.txt
+
+    1.1: The input file now accepts space and and newline. Please check the sample resource.txt.
 
     1.2: Use array on heap instead of vector to avoid touching the memory limit.
 
